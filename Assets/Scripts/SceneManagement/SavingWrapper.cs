@@ -29,6 +29,11 @@ namespace RPG.SceneManagement
             StartCoroutine(LoadFirstScene());
         }
 
+        public void MainMenu()
+        {
+            StartCoroutine(LoadMainMenu());
+        }
+
         private IEnumerator LoadFirstScene()
         {
             Fader fader = FindObjectOfType<Fader>();
@@ -51,6 +56,17 @@ namespace RPG.SceneManagement
             SetActive(false, _tipsCanvas);
             yield return fader.FadeIn(0.5f);
             SetActive(true, _objectiveCanvas);
+        }
+
+        private IEnumerator LoadMainMenu()
+        {
+            Fader fader = FindObjectOfType<Fader>();
+
+            yield return fader.FadeOut(0.5f);
+            SetActive(true, _tipsCanvas);
+            yield return SceneManager.LoadSceneAsync(0);
+            SetActive(false, _tipsCanvas);
+            yield return fader.FadeIn(0.5f);
         }
 
         private void Update()

@@ -14,8 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemID: 05f97e92-a6e0-4085-b6aa-8d4fb2bc15a6
   displayName: Health Potion
-  description: Drink this to heal yourself!
+  description: Drag to the action bar slot at the bottom of the screen, then press
+    the corresponding key to use it!
   icon: {fileID: 21300000, guid: aba0f700d91d4fc4fa8c724899ab04ab, type: 3}
   pickup: {fileID: 8265430572185886359, guid: 60f4b874a18d36b49b7c0c650f51eb68, type: 3}
   stackable: 1
   consumable: 1
+  _healPercentage: 20

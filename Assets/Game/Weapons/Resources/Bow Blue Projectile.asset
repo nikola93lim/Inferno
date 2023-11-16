@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemID: 12e6ff2a-ec31-4d1b-8218-2d5aebd998b7
   displayName: Bow
-  description: Shoots arrows, duh
+  description: Drag to the weapon slot in the equipment panel
   icon: {fileID: 21300000, guid: ec22508be0cdfba4abbaeb770bef08aa, type: 3}
   pickup: {fileID: 8040565169532904472, guid: 4f5315e739927da47921ed1db9a762f8, type: 3}
   stackable: 0
