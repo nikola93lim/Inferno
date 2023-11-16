@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e060c50f85fea9b4087b8e53b51e1a77, type: 3}
+  m_Name: BattleAxe
+  m_EditorClassIdentifier: 
+  itemID: df3ed409-cd62-439b-9707-5d609b6509dd
+  displayName: Battle Axe
+  description: Crush your foes!
+  icon: {fileID: 21300000, guid: ec22508be0cdfba4abbaeb770bef08aa, type: 3}
+  pickup: {fileID: 0}
+  stackable: 0
+  allowedEquipLocation: 5
+  _weaponPrefab: {fileID: -258197239854417831, guid: 630e02349ccd0ae409dccac0765eb17a, type: 3}
+  _overrideController: {fileID: 22100000, guid: ed067a86342f3e3478673a1fdee8c24e, type: 2}
+  _projectilePrefab: {fileID: 0}
+  _weaponRange: 2
+  _weaponDamage: 50
+  _percentageBonus: 0
+  _isRightHanded: 1

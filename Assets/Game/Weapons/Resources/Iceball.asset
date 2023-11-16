@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e060c50f85fea9b4087b8e53b51e1a77, type: 3}
+  m_Name: Iceball
+  m_EditorClassIdentifier: 
+  itemID: 2b93f8f8-30ab-4ddd-8bba-f9edad5e9b0a
+  displayName: Iceball
+  description: Iceeee
+  icon: {fileID: 21300000, guid: f1dd815974b2d4240a6bc912d6585497, type: 3}
+  pickup: {fileID: 1650464117925676486, guid: affc04b27b322fd449c5298faf4e2c6a, type: 3}
+  stackable: 0
+  allowedEquipLocation: 5
+  _weaponPrefab: {fileID: -8625837938338422378, guid: a867c996bb541a542b45aedf6e21e259, type: 3}
+  _overrideController: {fileID: 22100000, guid: 6b844caf924107541a67e70900b16e6c, type: 2}
+  _projectilePrefab: {fileID: 7324985652636655470, guid: 38bc30b8442faa540b660d2618f7240c, type: 3}
+  _weaponRange: 15
+  _weaponDamage: 30
+  _percentageBonus: 0
+  _isRightHanded: 0
