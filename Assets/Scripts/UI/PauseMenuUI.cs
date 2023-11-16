@@ -27,11 +27,13 @@ namespace RPG.UI
 
         public void NewGame()
         {
+            Time.timeScale = 1f;
             _savingWrapper.NewGame();
         }
 
         public void Quit()
         {
+            Time.timeScale = 1f;
             _savingWrapper.MainMenu();
         }
     }
